@@ -14,17 +14,21 @@ html {
 }
 
 body {
-    background: linear-gradient(to bottom left,crimson, orange,crimson);
-    background: linear-gradient(to bottom right,crimson, orange,crimson);
+    background: linear-gradient(to bottom left, orange,crimson);
     background-repeat: no-repeat;
     min-height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
     font-size: 5rem;
     text-align: center;
+}
+
+p {
+    font-size: 3rem;
 }
